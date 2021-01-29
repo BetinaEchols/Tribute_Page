@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*{
+   font-family: 'Comfortaa', cursive;
+   box-sizing: border-box;
+}
+/*Styling Main Section of Page*/
+#subject {
+    width: 1000px;
+    margin: auto;
+    background-color: aqua;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#title{
+    text-align: center;
+    padding-top: 15px;
+}
+#image {
+    display: block;
+    max-width: 70%;
+    height: auto;
+    border: 5px solid orange;
+    margin: 20px auto;
+ 
+}
+#img-caption {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+}
+#tribute-info{
+    line-height: 25px;
+    width: 70%;
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+/*Styling fun fact section*/
+
+#factoids {
+    width: 1000px;
+    margin: 100px auto;
+}
+h2 {
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+    border-bottom: 5px solid orange;
+    border-bottom-right-radius: 50%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: column wrap;
+
+}
+
+.box {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box img {
+    display: block;
+    height: 200px;
+    border: 3px solid orange;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+.box p {
+    font-size: .75em;
+    line-height: 20px;
+    width: 70%;
+    margin: auto;
+    font-weight: 600;
+}
